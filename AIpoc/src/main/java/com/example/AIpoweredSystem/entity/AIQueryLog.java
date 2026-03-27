@@ -22,4 +22,8 @@ public class AIQueryLog {
     private String response;
 
     private LocalDateTime createdAt;
+
+    private long responseTimeMs;
+
+    private boolean cached;
 }
